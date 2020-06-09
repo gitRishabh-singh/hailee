@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Dev: Rishabh Singh-->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hailee</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/fonts.css">
+   
+
+</head>
+
+<body>
+    <div class="loader-wrapper">
+		<div class="lds-roller">
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+			<div></div>
+		</div>
+	</div>
+    <div id="cursor"></div>
+    <div class="container">
+        <img src="./img/464011558_267285.jpg" alt="">
+        <img src="./img/464138038_424396.jpg" alt="">
+        <img src="./img/464824345_134204.jpg" alt="">
+        <img src="./img/464918274_134876.jpg" alt="">
+        <img src="./img/400011500609_78001.jpg" alt="">
+        <img src="./img/IMG_20200224_015514.jpg" alt="">
+        <img src="./img/IMG_20200224_153924.jpg" alt="">
+        <img src="./img/IMG_20200331_122743.jpg" alt="">
+        <img src="./img/IMG_20200331_122757.jpg" alt="">
+        <img src="./img/IMG_20200331_122810.jpg" alt="">
+        <img src="./img/IMG_20200331_122828.jpg" alt="">
+        <img src="./img/IMG_20200331_122844.jpg" alt="">
+        <img src="./img/IMG_20200331_122857.jpg" alt="">
+        <img src="./img/IMG_20200331_122912.jpg" alt="">
+        <img src="./img/IMG_20200331_122924.jpg" alt="">
+        <img src="./img/IMG_20200331_122940.jpg" alt="">
+        <img src="./img/IMG_20200331_122952.jpg" alt="">
+        <img src="./img/IMG_20200331_123005.jpg" alt="">
+        <img src="./img/IMG_20200331_123020.jpg" alt="">
+        <img src="./img/IMG_20200331_123033.jpg" alt="">
+        <img src="./img/IMG_20200331_123047.jpg" alt="">
+        <img src="./img/IMG_20200331_123103.jpg" alt="">
+        <img src="./img/IMG_20200331_123118.jpg" alt="">
+        <img src="./img/IMG_20200331_123135.jpg" alt="">
+        <img src="./img/IMG_20200331_123157.jpg" alt="">
+        <img src="./img/IMG_20200331_123214.jpg" alt="">
+        <img src="./img/IMG_20200508_164517.jpg" alt="">
+        <img src="./img/IMG_20200401_110252_433.jpg" alt="">
+        <img src="./img/Screenshot_2020-03-21-00-16-17-88.png" alt="">
+        <img src="./img/Screenshot_2020-04-06-10-50-44-61.png" alt="">
+        <img src="./img/Screenshot_2020-04-06-10-51-19-39.png" alt="">
+        <img src="./img/Screenshot_2020-05-24-01-17-53-10.png" alt="">
+        <img src="./img/82444457_1626684790806668_4620593574466144424_n.jpg" alt="">
+        <img src="./img/90091346_273933026933241_419613532633683826_n.jpg" alt="">
+        <img src="./img/95803334_531691560848815_8125087155558139912_n.jpg" alt="">
+        <img src="./img/95990646_2084004741724161_2205174848172488440_n.jpg" alt="">
+    </div>
+    <div class="text">
+        <div class="box"></div>
+        <div class="box-text">
+            <p>Hailee</p>
+            <p>Steinfeld</p>
+        </div>
+    </div>
+    <script src="./js/jquery.3.4.1.js"></script>
+    <script>
+        var cursor = document.querySelector("#cursor");
+        window.addEventListener("mousemove", function (e) {
+            cursor.style.top = ((e.pageY) - 15) + "px";
+            cursor.style.left = ((e.pageX) - 15) + "px";
+        });
+        
+        $(window).on('load', function () {
+			$('.loader-wrapper').fadeOut('slow');
+		});
+    </script>
+</body>
+
+</html>
